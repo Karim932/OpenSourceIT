@@ -1,8 +1,14 @@
+### Badges
+
+Etat du code :
+
 [![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/Lucass307/OpenSourceIT)
+Nombre d'issue ouvert :
 
-## Systèmes d'Exploitation
+![GitHub issues](https://img.shields.io/github/issues/Lucass307/OpenSourceIT)
+
+Systèmes d'Exploitation :
 
 ![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
 ![MacOS](https://img.shields.io/badge/MacOS-Supported-brightgreen)
@@ -10,55 +16,19 @@
 
 # OpenSourceIT
 
-vigenere_file - Un programme en langage C qui permet de chiffrer le contenu d'un fichier avec la méthode de Vigenère.
+C'est un programme en langage C qui utilise la méthode de Vigenère pour chiffrer le contenu d'un fichier
 
 ## Description
 
-Ce programme a pour fonction la lecture d'un texte à partir d'un fichier texte, puis applique méthode de chiffrement Vigenère avec une clé spécifiée, que ce soit pour encoder un message confidentiel ou décoder une communication cryptée. Une fois le processus de chiffrement ou de déchiffrement accompli, le résultat est affiché sur la sortie standard, offrant ainsi une solution polyvalente et pratique pour sécuriser ou interpréter des messages texte de manière confidentielle.
+Le programme a pour fonction la lecture d'un texte à partir d'un fichier texte, puis applique une méthode de chiffrement Vigenère avec une clé spécifiée, que ce soit pour encoder un message confidentiel ou décoder une communication cryptée. Une fois le processus de chiffrement ou de déchiffrement accompli, le résultat est affiché sur la sortie standard, offrant ainsi une solution polyvalente et pratique pour sécuriser ou interpréter des messages texte de manière confidentielle.
 
-## Installation 
 
-### Prérequis
-* MSYS2
-* GCC (GNU Compiler Collecton)
+## Documentation
 
-Pour bénéficier du programme sur votre machine, suivez les étapes d'installation suivantes : 
-
-### 1. Installer MSYS2
-
-Si vous n'avez pas déjà MSYS2 installé, téléchargez-le à partir du site officiel : [MSYS2](https://www.msys2.org/)
-
-### 2. Installer GCC (GNU Compiler Collection)
-
-Une fois MSYS2 installé, ouvrez le terminal MSYS2 et exécutez la commande suivante pour installer GCC :
-
-```bash
-pacman -S mingw-w64-x86_64-gcc
-```
-
-## Utilisation
-
-Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour lancer le programme : 
-1. Lancez le terminal MSYS2
-2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
-3. Compilez le code avec gcc
-```bash
-gcc -o exe vigenere_file.c
-```
-4. Exécutez le programme en précisant la clé suivie de l'option de déchiffrement si l'on veut (si rien est précisé on chiffrera) :
-```bash
-./exe [fichier][cle] (decode)
-```
-Une fois le programme lancé, si votre programme demande à l'utilisateur de spécifier le nom du fichier à traiter, entrez le nom du fichier ou le chemin complet comme demandé.
-
-## Contribution
-
-N'hésitez pas à contribuer au projet !
-Votre contribution est la bienvenue, si vous souhaitez nous en faire part, suivez ces étapes :
-
-1. Fork du projet.
-2. Créez une branche pour votre fonctionnalité (git checkout -b feature/nouvelle-fonctionnalite).
-3. Commitez vos modifications (git commit -m 'Ajout de la nouvelle fonctionnalité').
-4. Poussez vers la branche (git push origin feature/nouvelle-fonctionnalite).
-5. Créez une nouvelle Pull Request.
-
+* [Installation](https://lien-ici) - Pour bénéficier du programme sur votre machine, les prérequis 
+  * [MSYS2](https://lien-ici#tag) - Va permettre d'avoir un environnement linux
+  * [GCC](https://lien-ici#tag) - Dans MSYS2, sert à compilé du langage C
+  * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
+* [Utilisation](https://lien-ici) - Pour comprendre comment utiliser et lancer le programme
+* [Coding](https://lien-ici) - Un environnement pour coder sur le projet 
+* [Contribuer](https://lien-ici) - étapes à suivre pour contribuer sur le projet
